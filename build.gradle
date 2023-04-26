@@ -7,8 +7,8 @@ repositories {
 }
 
 dependencies {
-    compile group: 'javazoom', name: 'jlayer', version: '1.0.1'
-    compile group: 'com.googlecode.soundlibs', name: 'mp3spi', version: '1.9.5.4'
-    compile group: 'com.googlecode.soundlibs', name: 'tritonus-share', version: '0.3.7.4'
+    implementation group: 'javazoom', name: 'jlayer', version: '1.0.1'
+    implementation group: 'com.googlecode.soundlibs', name: 'mp3spi', version: '1.9.5.4'
+    implementation group: 'com.googlecode.soundlibs', name: 'tritonus-share', version: '0.3.7.4'
 
 }
